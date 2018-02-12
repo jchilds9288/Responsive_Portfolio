@@ -1,0 +1,625 @@
+/* * {
+    outline: 1px solid red !important;
+} */
+
+#portpage {
+    position: relative;
+    
+}
+
+#indexpage {
+    position: relative;
+    
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background-image: url("images/topography.png")
+}
+
+header {
+    position:relative;
+    background-image: url("images/footer_lodyas.png");
+    padding: 5px;   
+    color:rgb(255, 174, 0);
+    padding-left: 40px;
+    font-size: 35px;
+    border-bottom:5px solid rgb(255, 174, 0);
+    width:100%;
+    height:130px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-size: 60px; 
+}
+
+#name {
+     
+    float: left;
+    margin-left: 75px;
+}
+
+a {
+    color: rgb(207, 206, 206);
+    font-size: 25px;
+}
+
+#headLink {
+    position:absolute;
+    /* float: right; */
+    margin-top: 45px;
+    right:15%;
+    min-width: 25%;
+
+}
+
+#main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+   
+}
+
+#abtme {
+    width: 650px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float: left;
+    
+   /* overflow: auto; */
+}
+
+#bioT {
+    font-size: 40px;
+    padding-left:15px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(207, 206, 206);
+}
+
+#profileimg {
+    width: 630px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    overflow: auto;
+   
+}
+
+#bioP {
+margin-left: 10px;
+color:rgb(99, 97, 97);
+
+}
+
+#connect {
+    width: 270px;
+    float: right;
+    margin-right: 15px; 
+   
+}
+
+#reach {
+    color:rgb(0, 89, 255);
+    margin-top: 37px;
+    margin-bottom:0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(207, 206, 206);
+    font-size: 35px;
+}
+
+
+#github_logo {
+    margin-top:15px;
+    width:80px;
+
+}
+
+#linkedin_logo {
+    margin-top:15px;
+    width:80px;
+    
+}
+
+#stackoverflow_logo {
+    margin-top:15px;
+    width:80px;
+}    
+
+
+
+#conForm {
+    width: 65%;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float:left;
+    /* overflow: auto; */
+}
+
+#conTi {
+    font-size: 40px;
+    padding-left:15px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(207, 206, 206);
+}
+
+#form-box {
+    margin-left: 12%;
+}
+
+#formName {
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#formEmail {
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+textarea {
+    width: 85%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: rgb(109, 108, 108);
+}
+
+input {
+    color:rgb(155, 153, 153);
+    width: 500px; 
+}
+
+#subbut {
+    width:100px;
+    margin-bottom:20px;
+}
+
+#portTi {    
+    font-size: 40px;
+    padding-left:15px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(207, 206, 206);
+
+}
+
+#container-1 {
+    position: relative;
+    float:left
+}
+
+#hang {
+    width: 200px;
+    margin-left:83.3px;
+    margin-top: 40px;
+    /* float:left;   */
+}
+
+#upleft {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    bottom:45px;
+    left:83.3px;
+}
+
+#container-2 {
+    position: relative;
+    float: left;
+    
+}
+
+#rpg {
+    width: 200px;
+    margin-left: 83.3px;
+    margin-top: 40px;
+    /* float: left; */
+}
+
+#upright {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width: 200px;
+    bottom:45px;
+    left: 83.3px;
+}
+
+#container-3 {
+    position: relative;
+    float:left
+}
+
+#trivia {
+    width: 200px;
+    margin-left: 83.3px;
+    margin-top: 40px;
+    /* float: left; */
+}
+
+#midleft {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    bottom:45px;
+    left:83.3px;
+}
+
+#container-4 {
+    position: relative;
+    float:left
+}
+
+#rutgers {
+    width: 200px;
+    margin-left: 83.3px;
+    margin-top: 40px;
+    /* float: left; */
+}
+
+#midright {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    bottom:45px;
+    left:83.3px;
+}
+
+#container-5 {
+    position: relative;
+    float:left;
+    margin-bottom: 40px;
+}
+#rps {
+    width: 200px;
+    margin-left: 83.3px;
+    margin-top: 40px;
+    /* margin-bottom:40px; */
+    /* float: left; */
+}
+
+#botleft {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    bottom:45px;
+    left:83.3px;
+    
+}
+
+
+footer {
+    position: fixed;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    color: rgb(207, 206, 206);
+    border-top: 2px solid rgb(255, 174, 0);
+    margin-top:10px;
+    padding-top: 20px;
+    padding: 20px;
+    bottom:0;
+    width:100%;
+}
+
+@media screen and (max-width:960px) {
+   
+    #main {
+        width:760px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    
+    #abtme {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom:10px;
+        border:2px solid rgb(177, 175, 175);
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    #profileimg {
+        width: 740px;
+        height: 300px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* float:left; */
+        overflow: auto;
+        
+    }
+
+    h1 {
+        margin-top: 45px;
+        margin-bottom:40px;
+        font-size: 50px; 
+    }
+
+    #name {
+        float: left;
+        margin-left:0px;
+    }
+
+    #connect {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 80px;
+    
+    }
+   
+
+@media screen and (max-width:768px) {
+
+    #main {
+        width:500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #abtme {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom:10px;
+        border:2px solid rgb(177, 175, 175);
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+
+    #conForm {
+        width: 100%;
+        margin-top: 40px;
+        
+        /* float:left; */
+        
+    }
+
+    form {
+        margin-left:auto;
+        margin-right:auto; 
+    }
+
+    #connect {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 80px;
+    
+    }
+
+    h1 {
+        margin-top: 45px;
+        margin-bottom:40px;
+        font-size: 40px; 
+    }
+
+    #name {
+        float: left;
+        margin-left:0px;
+    }
+
+    #headLink {
+        float: right;
+        margin-top: 50px;
+        margin-right:0%;
+        min-width: 35%;
+
+    }
+
+    header {
+        font-size: 25px;
+    }
+
+    #profileimg {
+        width: 480px;
+        height: 200px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* float:left; */
+        overflow: auto;
+        
+    }
+
+    #hang {
+        width: 200px;
+        margin-left:30.3px;
+        margin-top: 40px;
+        /* float:left;   */
+    }
+
+    #upleft {
+        left:30.3px;
+    }
+
+    #rpg {
+        width: 200px;
+        margin-left: 43.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+
+    #upright {
+        left: 43.3px;
+    }
+
+    #trivia {
+        width: 200px;
+        margin-left: 30.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+
+    #midleft {
+        left:30.3px;
+    }
+
+    #rutgers {
+        width: 200px;
+        margin-left: 43.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+
+    #midright {
+        left:43.3px;
+    }
+
+    #rps {
+        width: 200px;
+        margin-left: 30.3px;
+        margin-top: 40px;
+        
+    }
+
+    #botleft {
+        left:30.3px;
+        
+    }
+}
+
+@media screen and (max-width:640px) {
+header {
+    font-size: 25px;
+    height: 150px;
+}
+
+h1 {
+    width: 530px;
+    margin-top: 20px;
+    margin-bottom:40px;
+    text-align: center;
+    font-size: 60px; 
+}
+
+
+#headLink {
+    
+    margin-top: 6%;
+    margin-right:0%;
+    width: 500px;
+    bottom: 20%;
+    text-align: center;
+
+}
+
+#name { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hang {
+    width: 300px;
+    margin-left:100px;
+    margin-top: 40px;
+    
+}
+
+#upleft {
+    
+    width:300px;
+    bottom:45px;
+    left:100px;
+}
+
+#rpg {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+#upright {
+    
+    width: 300px;
+    bottom:45px;
+    left: 100px;
+}
+
+#trivia {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+#midleft {
+    
+    width:300px;
+    bottom:45px;
+    left:100px;
+}
+
+#rutgers {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+#midright {
+    
+    width:300px;
+    bottom:45px;
+    left:100px;
+}
+
+#rps {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+#botleft {
+    
+    width:300px;
+    bottom:45px;
+    left:100px;
+    
+}
+
+}
